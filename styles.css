@@ -1,0 +1,17 @@
+.profile-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: darkgrey;
+}
+#carlos-wolf {
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    color: darkred;
+    font-weight: bold;
+}
