@@ -27,7 +27,6 @@ body {
     color:#091413;
     font-weight: bold;
     text-shadow: 2px 2px 5px white;
-
 }
 .deskripsi {
     color:whitesmoke;
@@ -39,5 +38,11 @@ body {
     font-size: 30px;
     text-shadow: 4px 4px black;
     font-style: normal;
-  
+    color: white;
+}
+#uraian {
+    color: whitesmoke;
+    text-align: justify;
+    font-style: oblique;
+
 }
