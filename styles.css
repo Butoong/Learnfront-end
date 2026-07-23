@@ -6,24 +6,72 @@ body {
     line-height: 1.6;
     letter-spacing: 0.5px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: whitesmoke
+    color: black;
+    text-align: justify;
 }
 #nama {
     font-size: 30px;
     text-align: center;
     font-family: "Black Ops One", sans-serif;
-    color: black;
+    color:white;
+    background: black;
+    text-decoration:underline;
+    text-shadow: 2px 2px 5px black;
+    padding: 20px;
+    border-radius: 50px;
+    border: 5px solid white;
+    
 }
 .profile-pic {
     display: block;
     width: 100%;
     height: auto;
-    margin: 0 auto;
+    margin: 10px;
     border: 5px solid darkgrey;
     box-sizing: border-box;
+    border-radius: 15px;
 }
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+.konten {
+    background-color: white;
+    padding: 45px;
+    max-width: 100%;
+    margin: 20px;
+    border-radius: 40px;
+    border: 10px solid grey;
+}
+.sejarah-singkat {
+    background-color: darkgrey;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.biografi {
+    background-color: darkgrey;
+    padding: 28px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.operasi {
+    background-color: darkgrey;
+    padding: 30px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.penghargaan {
+    background-color: darkgrey;
+    padding: 30px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
 }
