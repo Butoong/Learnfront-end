@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 10px none red;
+
+}
+
+.img-box {
+    width: 50%;
+    margin: 50px auto;
+    padding: 80px;
+    align-items: center;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    padding: 40px;
+    background-color: yellow;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
