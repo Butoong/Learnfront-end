@@ -10,23 +10,58 @@ body {
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
-    color:honeydew;
+    color:ghostwhite;
     padding:16px;
     margin:20px;
     text-align: center;
+    font-size: 40px;
+    text-shadow: 8px 8px 10px black;
+    
 
 }
 
-input {
+#username, #userpassword {
     display: block;
-    width: 40%;
-    align-items: center;
-    padding: 2px;
+    width: 30%;
+    margin: 15px auto;
+    padding: 3px;
+    border-radius: 8px;
+    box-shadow: 3px 8px 8px black;
+
     
 }
 
-label {
-    color:honeydew;
-    margin: 10px auto;
+.me-remember {
+    font-family: 'Courier New', Courier, monospace;
+    color:ghostwhite;
+    text-align: center;
+    margin-top: 10px;
+}
+
+input[type="checkbox"] {
+    display: inline;
+    vertical-align: middle;
+    margin-right: 150px;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+    background-color:lawngreen;
+    border-color: lawngreen;
+}
+
+label[for="username"],
+label[for="userpassword"] {
+
+    display:block;
+    text-align:left;
+    margin-left: 340px;
+    color:ghostwhite;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 18px;
+   
     
 }
+
+
+
