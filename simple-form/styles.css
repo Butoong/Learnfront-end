@@ -16,51 +16,45 @@ h1 {
     text-align: center;
     font-size: 40px;
     text-shadow: 8px 8px 10px black;
-    
+
 
 }
 
 #username, #userpassword {
     display: block;
-    width: 30%;
+    width: 20%;
     margin: 15px auto;
     padding: 3px;
     border-radius: 8px;
     box-shadow: 3px 8px 8px black;
-
-    
+ 
 }
 
 .me-remember {
     font-family: 'Courier New', Courier, monospace;
     color:ghostwhite;
     text-align: center;
-    margin-top: 10px;
+    font-size: 18px;
+    
 }
 
 input[type="checkbox"] {
-    display: inline;
     vertical-align: middle;
-    margin-right: 150px;
     cursor: pointer;
+    accent-color: rgb(60, 100, 17);
+    
 }
 
-input[type="checkbox"]:checked {
-    background-color:lawngreen;
-    border-color: lawngreen;
-}
 
 label[for="username"],
 label[for="userpassword"] {
 
     display:block;
     text-align:left;
-    margin-left: 340px;
+    margin-left: 777px;
     color:ghostwhite;
     font-family:'Courier New', Courier, monospace;
     font-size: 18px;
-   
-    
 }
 
 
