@@ -20,9 +20,10 @@ h1 {
 
 }
 
+/* input-box name dan email */
 #username, #userpassword {
     display: block;
-    width: 20%;
+    width: 60%;
     margin: 15px auto;
     padding: 3px;
     border-radius: 8px;
@@ -32,9 +33,12 @@ h1 {
 
 .me-remember {
     font-family: 'Courier New', Courier, monospace;
+    margin-top: 2em;
+    margin-left: 80px;
     color:ghostwhite;
-    text-align: center;
+    text-align: left;
     font-size: 18px;
+    cursor: pointer;
     
 }
 
@@ -45,17 +49,43 @@ input[type="checkbox"] {
     
 }
 
-
+/*label nama Username dan Password */
 label[for="username"],
 label[for="userpassword"] {
 
     display:block;
     text-align:left;
-    margin-left: 777px;
+    margin-left: 80px;
     color:ghostwhite;
     font-family:'Courier New', Courier, monospace;
     font-size: 18px;
 }
 
+button {
+    display: block;
+    margin-top: 10%;
+    padding: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
 
+p {
+    margin-top: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bold;
+    color: ghostwhite;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+    
+}
 
+p a {
+    color:ghostwhite;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkcyan;
+    
+}
