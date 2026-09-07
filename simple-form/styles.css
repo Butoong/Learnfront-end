@@ -28,7 +28,16 @@ h1 {
     padding: 3px;
     border-radius: 8px;
     box-shadow: 3px 8px 8px black;
- 
+}
+
+#username:focus {
+    border: 5px solid darkgreen;
+    outline: none;
+}
+
+#userpassword:focus {
+    border: 5px solid darkgreen;
+    outline: none;
 }
 
 .me-remember {
@@ -39,14 +48,14 @@ h1 {
     text-align: left;
     font-size: 18px;
     cursor: pointer;
+     
     
 }
 
 input[type="checkbox"] {
     vertical-align: middle;
     cursor: pointer;
-    accent-color: rgb(60, 100, 17);
-    
+    accent-color: lightgreen;    
 }
 
 /*label nama Username dan Password */
@@ -64,10 +73,14 @@ label[for="userpassword"] {
 button {
     display: block;
     margin-top: 10%;
-    padding: 4px;
+    padding: 10px;
     margin-left: auto;
     margin-right: auto;
-    
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    background-color: lightgreen;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;    
 }
 
 p {
