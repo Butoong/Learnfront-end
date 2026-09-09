@@ -3,9 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Registration-form</title>
 </head>
 <body>
+    <h1>Buat Akun</h1>
+
+    <div class="full-name">
+        <label for="fullname">Nama Lengkap</label>
+        <input
+            id="fullname"
+            name="fullname"
+            type="text"
+            placeholder="e.g Budi Dibu"
+            required
+        >
+    </div>
+
+    <div class="email-only">
+        <label for="emailonly">Email</label>
+        <input
+            id="emailonly"
+            name="emailonly"
+            type="email"
+            placeholder="e.g Budi@Gmail.com"
+            required
+        >
+    </div>
+
+    <div class="password-only">
+        <label for="passwordonly">Password</label>
+        <input
+            id="passwordonly"
+            name="passwordonly"
+            type="password"
+            required
+        >
+    </div>
+
+    <div class="confirm-pass">
+        <label for="confirmpassword">Konfirmasi Password</label>
+        <input
+            id="confirmpassword"
+            name="confirmpassword"
+            type="password"
+            required
+        >
+    </div>
+
+    <button>Buat Akun</button>
     
+
 </body>
 </html>
