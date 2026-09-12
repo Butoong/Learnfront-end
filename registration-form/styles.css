@@ -11,11 +11,40 @@ body {
 }
 
 h1 {
-    font-size: 2.2em;
+    font-size: 2.5em;
     margin: 5vh;
+    font-family: 'Outfit';
     text-align: center;
-    font-weight: bold;
-    text-shadow: 2px 2px 10px #FFD758;
-
+    text-shadow: 2px 2px 5px #14213d;
 }
+
+.full-name input {
+    display: block;
+    margin: 15px auto;
+    width: 60%;
+    max-width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px #14213d;
+}
+
+.full-name input:focus {
+    outline: none;
+    border: 5px solid #ffd500;
+}
+
+.full-name label {
+    display: block;
+    width: 60%;
+    max-width: 400px;
+    margin: 15px auto;
+    color: #ffd500;
+    font-weight: 2rem;
+    font-size: 1.2em;
+    text-shadow: 2px 2px 2px black;
+    
+}
+
+
+
 
