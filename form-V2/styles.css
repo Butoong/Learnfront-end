@@ -18,7 +18,7 @@ h1 {
     text-shadow: 2px 2px 5px #14213d;
 }
 
-.full-name input {
+.form-group input {
     display: block;
     margin: 15px auto;
     width: 60%;
@@ -28,100 +28,24 @@ h1 {
     box-shadow: 5px 5px 8px #14213d;
 }
 
-.full-name input:focus {
+.form-group input:focus {
     outline: none;
     border: 5px solid #ffd500;
 }
 
-.full-name label {
+.form-group input:invalid {
+    border: 2px solid orange;
+}
+
+.form-group label {
     display: block;
     width: 60%;
     max-width: 400px;
     margin: 15px auto;
     color: #ffd500;
-    font-weight: 2rem;
+    font-weight:800;
     font-size: 1.2em;
     text-shadow: 2px 2px 2px black;
-}
-
-.email-only input {
-    display: block;
-    width: 60%;
-    max-width: 400px;
-    padding: 10px;
-    margin: 15px auto;
-    border-radius: 10px;
-    box-shadow: 5px 5px 8px #14213d;
-}
-
-.email-only label {
-    display: block;
-    width: 60%;
-    max-width: 400px;
-    margin: 15px auto;
-    font-weight: 2rem;
-    font-size: 1.2em;
-    color: #ffd500;
-    text-shadow: 2px 2px 2px black;
-}
-
-.email-only input:focus {
-    outline: none;
-    border: 5px solid #ffd500;
-}
-
-.password-only input{
-    display: block;
-    width: 60%;
-    max-width: 400px;
-    margin: 15px auto;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 8px #14213d;
-
-}
-
-.password-only label {
-    display: block;
-    width: 60%;
-    max-width: 400px;
-    margin: 15px auto;
-    font-weight: 2rem;
-    font-size: 1.2em;
-    color: #ffd500;
-    text-shadow: 2px 2px 2px black;
-}
-
-.password-only input:focus {
-    outline: none;
-    border: 5px solid #ffd500;
-
-}
-
-.confirm-pass input {
-    display: block;
-    width: 60%;
-    max-width: 400px;
-    margin: 15px auto;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 8px #14213d;
-}
-
-.confirm-pass label {
-    display: block;
-    width: 60%;
-    max-width: 400px;
-    margin: 15px auto;
-    font-weight: 2rem;
-    font-size: 1.2em;
-    color: #ffd500;
-    text-shadow: 2px 2px 2px black;
-}
-
-.confirm-pass input:focus {
-    outline: none;
-    border: 5px solid #ffd500;
 }
 
 button {
