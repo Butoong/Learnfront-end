@@ -26,6 +26,7 @@ h1 {
     padding: 10px;
     border-radius: 10px;
     box-shadow: 5px 5px 8px #14213d;
+    cursor:pointer;
 }
 
 .form-group input:focus {
@@ -54,12 +55,15 @@ button {
     padding: 10px;
     border-radius: 12px;
     box-shadow: 2px 4px 5px black;
+    font-family: 'Outfit';
+    font-size: 1em;
 }    
     
 button:hover {
     background-color:#ffd500;
     cursor: pointer;
-}
+    transform: translateY(3px);
+}    
 
 
 
