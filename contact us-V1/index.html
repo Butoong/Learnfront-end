@@ -3,12 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Caacupe+One&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
     <title>Contact Us</title>
 </head>
 <body>
+    <div class="form-header">
     <h1>Hubungi Kami</h1>
     <p>Silahkan hubungi kami untuk jika ada pertanyaan mengenai jasa kami.</p>
+    </div>
 
+    <div class="form-group">
     <label for="user-name">Nama Pengguna</label>
     <input
         type="text"
@@ -32,13 +39,12 @@
         <option value="organizer">Wedding organizer</option>
         <option value="planner">Wedding Planner</option>
     </select>
-
+    
     <label for="kirim-pesan">Kirim Pesan</label>
     <textarea name="pesan" id="kirim-pesan" rows="10" cols="40" minlength="30" maxlength="100" placeholder="Tulis pesan disini" required></textarea>
+    </div>
 
     <button>Kirim Pesan</button>
 
-
-    
 </body>
 </html>
