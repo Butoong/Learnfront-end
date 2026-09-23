@@ -11,15 +11,18 @@ body {
 .form-header{
     text-align: center;
     font-family: "Merriweather", serif;
+    
 }
 
 h1 {
-    display: inline-block;
+    display:inline-block;
+    width: 60%;
+    max-width: 400px;
     margin: 40px auto;
-    padding: 8px 12px;
+    padding: 5px 15px;
     font-weight: 800;
     font-optical-sizing: auto;
-    font-size: 2em;
+    font-size: 1.7em;
     color:#fca311;
     text-shadow: 
     2px 1px #fca311,
@@ -27,7 +30,14 @@ h1 {
     border: 5px solid black;
     border-radius: 20px;
     background-color: #14213d;
-    
-    
+}
+
+p {
+    display:block;
+    width: 60%;
+    max-width: 400px;
+    padding: 5px 5px;
+    margin: 20px auto;
+   
 }
 
