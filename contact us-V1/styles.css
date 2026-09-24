@@ -46,13 +46,16 @@ p {
     display:block;
     width: 60%;
     max-width: 400px;
-    text-align: center;
+    margin: auto;
+    padding: 2px auto;
 }
 
 .form-group input {
     display: block;
     width: 60%;
     max-width: 400px;
-    margin: 12px auto;
+    margin: 8px auto;
+    padding: 4px;
+    
 }
 
