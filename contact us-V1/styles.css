@@ -59,7 +59,10 @@ p {
     margin: 10px auto;
     padding: 4px;
     border-radius: 5px;
-    box-shadow: 2px 3px 5px black;
+    cursor: pointer;
+    box-shadow: 
+    2px 2px 5px black,
+    5px 5px 8px #fca311
 }
 
 .form-group label[for="kirim-pesan"] {
@@ -80,6 +83,8 @@ p {
     border-radius: 5px;
     box-shadow: 2px 3px 5px black;
     font-family: "Outfit", serif;
+    cursor: pointer;
+    
 }
 
 textarea {
@@ -88,7 +93,10 @@ textarea {
     max-width: 400px;
     margin: 10px auto;
     border-radius: 3px;
-    box-shadow: 2px 3px 5px black;
+    cursor: pointer;
+    box-shadow: 
+    2px 2px 5px black,
+    5px 5px 8px #fca311
 }
 
 button {
@@ -96,6 +104,8 @@ button {
     margin: 20px auto;
     padding: 5px 20px;
     border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
     box-shadow: 
     2px 2px 5px black,
     5px 5px 8px #fca311;
@@ -104,6 +114,17 @@ button {
 .form-group input:focus {
     outline: none;
     border: 5px solid #14213d;
+}
+
+.form-group textarea:focus {
+    outline: none;
+    border: 5px solid #14213d;
+}
+
+button:hover {
+    background-color: #fca311;
+    transform: translateX(5px);
+    
 }
 
 
