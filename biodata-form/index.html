@@ -1,75 +1,48 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Biodata Form</Form></title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Biodata Form</title>
+  </head>
+  <body>
     <h1>Data Diri</h1>
 
     <label for="full-name">Nama Lengkap</label>
-    <input
-        type="text"
-        id="full-name"
-        name="fullname"
-        required
-    >
+    <input type="text" id="full-name" name="fullname" required />
 
     <label>Jenis Kelamin</label>
-    <input
-        type="radio"
-        id="male-id"
-        name="male"
-        value="choosemale"
-    >
+    <input type="radio" id="male-id" name="male" value="choosemale" />
     <label for="male-id">Laki-laki</label>
-    <input
-        type="radio"
-        id="female-id"
-        name="female"
-        value="choosefemale"
-    >
+    <input type="radio" id="female-id" name="female" value="choosefemale" />
     <label for="female-id">Perempuan</label>
 
     <label>Teknologi Favorit</label>
-    <input
-        type="checkbox"
-        id="html-input"
-        name="htmlchoice"
-        value="html"
-    >
+    <input type="checkbox" id="html-input" name="htmlchoice" value="html" />
     <label for="html-input">HTML</label>
 
-    <input
-        type="checkbox"
-        id="css-input"
-        name="css"
-        value="css"
-    >
+    <input type="checkbox" id="css-input" name="css" value="css" />
     <label for="css-input">CSS</label>
 
     <input
-        type="checkbox"
-        id="javascript-input"
-        name="javascript"
-        value="javascript"
-    >
+      type="checkbox"
+      id="javascript-input"
+      name="javascript"
+      value="javascript"
+    />
     <label for="javascript-input">JAVASCRIPT</label>
 
     <label for="experience-level">Tingkat Pengalaman</label>
     <select id="experience-level">
-        <option value="">--Silahkan pilih level anda--</option>
-        <option value="pemula">Pemula</option>
-        <option value="amatir">Amatir</option>
-        <option value="mahir">Mahir</option>
-        <option value="profesional">Pro</option>
-        <option value="dewa">Tingkat Dewa</option>
+      <option value="">--Silahkan pilih level anda--</option>
+      <option value="pemula">Pemula</option>
+      <option value="amatir">Amatir</option>
+      <option value="mahir">Mahir</option>
+      <option value="profesional">Pro</option>
+      <option value="dewa">Tingkat Dewa</option>
     </select>
 
     <button>Kirim Survey</button>
-
-    
-</body>
+  </body>
 </html>
